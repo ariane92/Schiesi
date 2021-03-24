@@ -1,0 +1,626 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9b91baa0d307221916639e20496dd0d5/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ba588e3c2866126bba755c304c3cb572/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_app] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/cca904fa41d5cc9a11e45bd140f1730f/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-community_checkbox] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_google-signin] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_masked-view] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fbsdk] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-fbsdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:1-28:12
+MERGED from [:react-native-gesture-handler] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c305f326d8c58f42cb071c214f2f36be/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7c8b899d26ed26fb4f977a2a8e33950a/facebook-android-sdk-8.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/041e3d96cce1fa744e3f8b7a7f52bc0f/facebook-login-8.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/36291dc57645a6609a2cae32ca5dc510/facebook-gamingservices-8.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9b7547049fe32631e277bf8345659e4/facebook-share-8.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:21:1-52:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b42c2e12017ca2fab38a93e41a8d3911/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/75d151f21923b7dcda253b8fa07679d5/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b882147d6dfd9259d14a3c37c314466c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0111cdee48a65d66000dc12a8a78e7c5/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a2bfdf1030f49035607c524ebe3f20fb/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8975b37f6e45c8de998adf36128c1a80/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f1459d7a94b0498a8b0ff0c42e5d648/facebook-applinks-8.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01be08b9b047608e0842c3ae750e019d/facebook-messenger-8.2.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:21:1-53:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b3e017240ccd4c0426ca7a13ff7ff44c/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8a87fcc507194a07406d4f4cb335dd13/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d74e3fea7fdc28b3214502cc596f347d/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/1d9e81cbfd34dd0840b2e8683779798e/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c9370ff7207bc12f4b3cdcc6b46c1877/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/22ef21881e909fd63fcf215f2231fed3/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/598aa69eb0be899b2e69d18883e675c0/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c23cef41dddd1ec49f6324c288b700ff/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5f3308cc2ff0fe836b5baccd742cba91/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0c9027066e73a3a248e53b5f73af2792/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92b715bbb5ca012bd997438cfd46a96/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/25baf4bd6f881528a9316d51894247bc/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2bc3fa94d03319e0c83907227ab3aee/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d5c6214cd49336178449bb8be4575dae/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f1bd3688506acd938457668e85103ac8/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/138b4d4ef6b52bfd92fc5132c8be04ef/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ab02a2c23eb78e72de04834c36ccfc27/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/275679dbdf5c746c5ac133b83db78584/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7eb6c5b30cc56c33ed03f6129dd0b239/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f2f0d07aeca30a22375429f40487553/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/211020344b336669367387025565fa12/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/72f5e73251975901514faca761273ce6/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a597fea1fe1b8a10e324e3c25b91c3e9/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5121f9b5184982f71fbb7d085d0731e2/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/334544caf9f22886c2e7510b9f324bfc/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a164a4423d9f4a8ec7815a1466b80611/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5eea3af38aa164bb8712a0888e6dacfa/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/6ee5d260a392e6359072074c297dbd9a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/78ffc4bebc22ebbef9beb9a7624c62c1/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0f6f66d6e4e49df2b3e292c3626a164b/jetified-firebase-components-16.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/048d768c890b5bb562b63e0e2aeb33d5/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f50692153a87a0b7b8fba88623024817/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/466bccfea937805840fdba4cea29d8c8/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/acc02d33f4ec3457c832c69e35990961/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ca3ac4735331f634358b290f973052c1/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01e8bd84a3970678068613263f897a62/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e007d230194c5481700595dc0325b4d3/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/40c50df892a32aced275865142e99f76/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d15b7acc5b16c732a331e5fa7e99e26c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/efa4a31281ebc8f81ecb5857f9d59d18/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/4dd764a036e6bac270c5fc364953aae9/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92f20cb3fbbe885275b16da29ee689c/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/867d9fa7eef6eec592482b90f8246df2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9676213424d372c068a4b0d1428a2f1b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/50ee8d645ec1d9737fd630d8cb9cc1c0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b844ccb06dd83eefad7f3b8b57cee84b/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5a1239d0b0a1f34e060f13ed27f8a991/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9160afd05ce8c341bbfc63eb2381615/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ad916d5ddbcc3087f3e6651fa5a6a1aa/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d2a666bbe95f6b7c9296ef7b9e8f8f97/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/3a47c4befa27e4f75898b076797e3f39/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d4ac28da4b329cae9329db97816a9c4b/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7199c457c25ef2c16c2340b88165368c/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5988a82c282431c01944eb05d909325e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/93a64fa6f729c12103f6a51d11076d29/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/05bdacfefdb20413d04de55b07cbaca7/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c305f326d8c58f42cb071c214f2f36be/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c305f326d8c58f42cb071c214f2f36be/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7c8b899d26ed26fb4f977a2a8e33950a/facebook-android-sdk-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7c8b899d26ed26fb4f977a2a8e33950a/facebook-android-sdk-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/041e3d96cce1fa744e3f8b7a7f52bc0f/facebook-login-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/041e3d96cce1fa744e3f8b7a7f52bc0f/facebook-login-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/36291dc57645a6609a2cae32ca5dc510/facebook-gamingservices-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/36291dc57645a6609a2cae32ca5dc510/facebook-gamingservices-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9b7547049fe32631e277bf8345659e4/facebook-share-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9b7547049fe32631e277bf8345659e4/facebook-share-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:29:5-50:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8975b37f6e45c8de998adf36128c1a80/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8975b37f6e45c8de998adf36128c1a80/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f1459d7a94b0498a8b0ff0c42e5d648/facebook-applinks-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f1459d7a94b0498a8b0ff0c42e5d648/facebook-applinks-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01be08b9b047608e0842c3ae750e019d/facebook-messenger-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01be08b9b047608e0842c3ae750e019d/facebook-messenger-8.2.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f1bd3688506acd938457668e85103ac8/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f1bd3688506acd938457668e85103ac8/soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/138b4d4ef6b52bfd92fc5132c8be04ef/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/138b4d4ef6b52bfd92fc5132c8be04ef/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/72f5e73251975901514faca761273ce6/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/72f5e73251975901514faca761273ce6/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5121f9b5184982f71fbb7d085d0731e2/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5121f9b5184982f71fbb7d085d0731e2/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92f20cb3fbbe885275b16da29ee689c/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92f20cb3fbbe885275b16da29ee689c/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9676213424d372c068a4b0d1428a2f1b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9676213424d372c068a4b0d1428a2f1b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92f20cb3fbbe885275b16da29ee689c/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-android-sdk:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7c8b899d26ed26fb4f977a2a8e33950a/facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:7:7-38
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:13:7-105
+	android:value
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:13:64-103
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:13:18-63
+activity#com.schiesiapp.MainActivity
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:14:7-24:18
+	android:label
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:16:9-41
+	android:launchMode
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:18:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:19:9-51
+	android:configChanges
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:17:9-86
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:15:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:22:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:25:7-84
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:25:17-81
+uses-sdk
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9b91baa0d307221916639e20496dd0d5/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9b91baa0d307221916639e20496dd0d5/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ba588e3c2866126bba755c304c3cb572/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ba588e3c2866126bba755c304c3cb572/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/cca904fa41d5cc9a11e45bd140f1730f/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/cca904fa41d5cc9a11e45bd140f1730f/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-community_checkbox] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_google-signin] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_google-signin] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fbsdk] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-fbsdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-fbsdk] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-fbsdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-gesture-handler] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c305f326d8c58f42cb071c214f2f36be/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c305f326d8c58f42cb071c214f2f36be/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7c8b899d26ed26fb4f977a2a8e33950a/facebook-android-sdk-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7c8b899d26ed26fb4f977a2a8e33950a/facebook-android-sdk-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/041e3d96cce1fa744e3f8b7a7f52bc0f/facebook-login-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/041e3d96cce1fa744e3f8b7a7f52bc0f/facebook-login-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/36291dc57645a6609a2cae32ca5dc510/facebook-gamingservices-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-gamingservices:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/36291dc57645a6609a2cae32ca5dc510/facebook-gamingservices-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9b7547049fe32631e277bf8345659e4/facebook-share-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9b7547049fe32631e277bf8345659e4/facebook-share-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:25:5-27:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b42c2e12017ca2fab38a93e41a8d3911/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b42c2e12017ca2fab38a93e41a8d3911/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/75d151f21923b7dcda253b8fa07679d5/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/75d151f21923b7dcda253b8fa07679d5/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b882147d6dfd9259d14a3c37c314466c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b882147d6dfd9259d14a3c37c314466c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0111cdee48a65d66000dc12a8a78e7c5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0111cdee48a65d66000dc12a8a78e7c5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:21:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a2bfdf1030f49035607c524ebe3f20fb/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a2bfdf1030f49035607c524ebe3f20fb/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8975b37f6e45c8de998adf36128c1a80/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8975b37f6e45c8de998adf36128c1a80/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f1459d7a94b0498a8b0ff0c42e5d648/facebook-applinks-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f1459d7a94b0498a8b0ff0c42e5d648/facebook-applinks-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01be08b9b047608e0842c3ae750e019d/facebook-messenger-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01be08b9b047608e0842c3ae750e019d/facebook-messenger-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b3e017240ccd4c0426ca7a13ff7ff44c/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b3e017240ccd4c0426ca7a13ff7ff44c/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8a87fcc507194a07406d4f4cb335dd13/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/8a87fcc507194a07406d4f4cb335dd13/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d74e3fea7fdc28b3214502cc596f347d/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d74e3fea7fdc28b3214502cc596f347d/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/1d9e81cbfd34dd0840b2e8683779798e/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/1d9e81cbfd34dd0840b2e8683779798e/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c9370ff7207bc12f4b3cdcc6b46c1877/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c9370ff7207bc12f4b3cdcc6b46c1877/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/22ef21881e909fd63fcf215f2231fed3/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/22ef21881e909fd63fcf215f2231fed3/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/598aa69eb0be899b2e69d18883e675c0/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/598aa69eb0be899b2e69d18883e675c0/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c23cef41dddd1ec49f6324c288b700ff/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/c23cef41dddd1ec49f6324c288b700ff/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5f3308cc2ff0fe836b5baccd742cba91/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5f3308cc2ff0fe836b5baccd742cba91/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0c9027066e73a3a248e53b5f73af2792/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0c9027066e73a3a248e53b5f73af2792/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92b715bbb5ca012bd997438cfd46a96/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92b715bbb5ca012bd997438cfd46a96/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/25baf4bd6f881528a9316d51894247bc/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/25baf4bd6f881528a9316d51894247bc/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2bc3fa94d03319e0c83907227ab3aee/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2bc3fa94d03319e0c83907227ab3aee/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d5c6214cd49336178449bb8be4575dae/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d5c6214cd49336178449bb8be4575dae/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f1bd3688506acd938457668e85103ac8/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f1bd3688506acd938457668e85103ac8/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/138b4d4ef6b52bfd92fc5132c8be04ef/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/138b4d4ef6b52bfd92fc5132c8be04ef/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ab02a2c23eb78e72de04834c36ccfc27/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ab02a2c23eb78e72de04834c36ccfc27/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/275679dbdf5c746c5ac133b83db78584/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/275679dbdf5c746c5ac133b83db78584/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7eb6c5b30cc56c33ed03f6129dd0b239/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7eb6c5b30cc56c33ed03f6129dd0b239/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f2f0d07aeca30a22375429f40487553/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7f2f0d07aeca30a22375429f40487553/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/211020344b336669367387025565fa12/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/211020344b336669367387025565fa12/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/72f5e73251975901514faca761273ce6/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/72f5e73251975901514faca761273ce6/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a597fea1fe1b8a10e324e3c25b91c3e9/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a597fea1fe1b8a10e324e3c25b91c3e9/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5121f9b5184982f71fbb7d085d0731e2/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5121f9b5184982f71fbb7d085d0731e2/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/334544caf9f22886c2e7510b9f324bfc/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/334544caf9f22886c2e7510b9f324bfc/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a164a4423d9f4a8ec7815a1466b80611/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/a164a4423d9f4a8ec7815a1466b80611/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5eea3af38aa164bb8712a0888e6dacfa/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5eea3af38aa164bb8712a0888e6dacfa/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/6ee5d260a392e6359072074c297dbd9a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/6ee5d260a392e6359072074c297dbd9a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/78ffc4bebc22ebbef9beb9a7624c62c1/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/78ffc4bebc22ebbef9beb9a7624c62c1/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0f6f66d6e4e49df2b3e292c3626a164b/jetified-firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/0f6f66d6e4e49df2b3e292c3626a164b/jetified-firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/048d768c890b5bb562b63e0e2aeb33d5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/048d768c890b5bb562b63e0e2aeb33d5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f50692153a87a0b7b8fba88623024817/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/f50692153a87a0b7b8fba88623024817/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/466bccfea937805840fdba4cea29d8c8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/466bccfea937805840fdba4cea29d8c8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/acc02d33f4ec3457c832c69e35990961/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/acc02d33f4ec3457c832c69e35990961/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ca3ac4735331f634358b290f973052c1/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ca3ac4735331f634358b290f973052c1/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01e8bd84a3970678068613263f897a62/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/01e8bd84a3970678068613263f897a62/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e007d230194c5481700595dc0325b4d3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e007d230194c5481700595dc0325b4d3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/40c50df892a32aced275865142e99f76/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/40c50df892a32aced275865142e99f76/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d15b7acc5b16c732a331e5fa7e99e26c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d15b7acc5b16c732a331e5fa7e99e26c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/efa4a31281ebc8f81ecb5857f9d59d18/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/efa4a31281ebc8f81ecb5857f9d59d18/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/4dd764a036e6bac270c5fc364953aae9/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/4dd764a036e6bac270c5fc364953aae9/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92f20cb3fbbe885275b16da29ee689c/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92f20cb3fbbe885275b16da29ee689c/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/867d9fa7eef6eec592482b90f8246df2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/867d9fa7eef6eec592482b90f8246df2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9676213424d372c068a4b0d1428a2f1b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/9676213424d372c068a4b0d1428a2f1b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/50ee8d645ec1d9737fd630d8cb9cc1c0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/50ee8d645ec1d9737fd630d8cb9cc1c0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b844ccb06dd83eefad7f3b8b57cee84b/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b844ccb06dd83eefad7f3b8b57cee84b/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5a1239d0b0a1f34e060f13ed27f8a991/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5a1239d0b0a1f34e060f13ed27f8a991/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9160afd05ce8c341bbfc63eb2381615/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e9160afd05ce8c341bbfc63eb2381615/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ad916d5ddbcc3087f3e6651fa5a6a1aa/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/ad916d5ddbcc3087f3e6651fa5a6a1aa/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d2a666bbe95f6b7c9296ef7b9e8f8f97/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d2a666bbe95f6b7c9296ef7b9e8f8f97/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/3a47c4befa27e4f75898b076797e3f39/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/3a47c4befa27e4f75898b076797e3f39/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d4ac28da4b329cae9329db97816a9c4b/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d4ac28da4b329cae9329db97816a9c4b/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7199c457c25ef2c16c2340b88165368c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7199c457c25ef2c16c2340b88165368c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5988a82c282431c01944eb05d909325e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5988a82c282431c01944eb05d909325e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/93a64fa6f729c12103f6a51d11076d29/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/93a64fa6f729c12103f6a51d11076d29/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/05bdacfefdb20413d04de55b07cbaca7/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/05bdacfefdb20413d04de55b07cbaca7/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:30:9-33:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:32:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:31:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:34:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:36:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.schiesiapp+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:39:13-48:29
+action#android.intent.action.VIEW
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:17-78
+	android:name
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:27-75
+data
+ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:45:17-47:50
+	android:host
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:46:21-56
+	android:scheme
+		ADDED from [com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:47:21-47
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:75:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:25-92
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107

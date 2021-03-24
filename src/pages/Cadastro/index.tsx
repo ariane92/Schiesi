@@ -1,0 +1,10 @@
+export * from './fotos'
+export * from './genero'
+export * from './interesses'
+export * from './nascimento'
+export * from './nome'
+export * from './orientacao'
+export * from './preferencia'
+export * from './termos'
+export * from './universidade'
+

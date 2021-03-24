@@ -1,0 +1,6 @@
+module Pods_SchiesiApp {
+  umbrella header "Pods-SchiesiApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

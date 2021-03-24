@@ -1,0 +1,6 @@
+module Pods_SchiesiApp_SchiesiAppTests {
+  umbrella header "Pods-SchiesiApp-SchiesiAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

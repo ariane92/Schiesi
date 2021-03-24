@@ -1,0 +1,312 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.schiesiapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/65e108025344fb9e51006200a5e428b6/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] /Users/arianemateus/Documents/Projetos/Schiesi/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+16-->[com.android.installreferrer:installreferrer:1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/07c60fc0ee583ca4f62c324c88f54011/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+17
+18    <application
+18-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:6:5-26:19
+19        android:name="com.schiesiapp.MainApplication"
+19-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/d92f20cb3fbbe885275b16da29ee689c/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:supportsRtl="true"
+26-->[com.facebook.android:facebook-android-sdk:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7c8b899d26ed26fb4f977a2a8e33950a/facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
+27        android:theme="@style/AppTheme"
+27-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:12:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/debug/AndroidManifest.xml:7:18-53
+29        <meta-data
+29-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:13:7-105
+30            android:name="com.facebook.sdk.ApplicationId"
+30-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:13:18-63
+31            android:value="@string/facebook_app_id" />
+31-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:13:64-103
+32
+33        <activity
+33-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:14:7-24:18
+34            android:name="com.schiesiapp.MainActivity"
+34-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:15:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:17:9-86
+36            android:label="@string/app_name"
+36-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:16:9-41
+37            android:launchMode="singleTask"
+37-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:18:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:19:9-51
+39            <intent-filter>
+39-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:20:9-23:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:21:13-65
+40-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:21:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:22:13-73
+42-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:22:23-70
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+45-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:25:7-84
+45-->/Users/arianemateus/Documents/Projetos/Schiesi/android/app/src/main/AndroidManifest.xml:25:17-81
+46        <activity
+46-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:30:9-33:66
+47            android:name="com.facebook.FacebookActivity"
+47-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:31:13-57
+48            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+48-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:32:13-96
+49            android:theme="@style/com_facebook_activity_theme" />
+49-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:33:13-63
+50        <activity android:name="com.facebook.CustomTabMainActivity" />
+50-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:34:9-71
+50-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:34:19-68
+51        <activity
+51-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:35:9-49:20
+52            android:name="com.facebook.CustomTabActivity"
+52-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:36:13-58
+53            android:exported="true" >
+53-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:37:13-36
+54            <intent-filter>
+54-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:39:13-48:29
+55                <action android:name="android.intent.action.VIEW" />
+55-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:17-69
+55-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:25-66
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:17-76
+57-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:27-73
+58                <category android:name="android.intent.category.BROWSABLE" />
+58-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:17-78
+58-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:27-75
+59
+60                <data
+60-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:45:17-47:50
+61                    android:host="cct.com.schiesiapp"
+61-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:46:21-56
+62                    android:scheme="fbconnect" />
+62-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:47:21-47
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
+66            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+66-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
+67            android:excludeFromRecents="true"
+67-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
+68            android:exported="true"
+68-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
+69            android:launchMode="singleTask"
+69-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+70-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
+71            <intent-filter>
+71-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
+72                <action android:name="android.intent.action.VIEW" />
+72-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:17-69
+72-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:25-66
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:17-76
+74-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:27-73
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:17-78
+75-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:27-75
+76
+77                <data
+77-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:45:17-47:50
+78                    android:host="firebase.auth"
+78-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:46:21-56
+79                    android:path="/"
+80                    android:scheme="genericidp" />
+80-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:47:21-47
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
+84            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+84-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
+85            android:excludeFromRecents="true"
+85-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
+86            android:exported="true"
+86-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
+87            android:launchMode="singleTask"
+87-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+88-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
+89            <intent-filter>
+89-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
+90                <action android:name="android.intent.action.VIEW" />
+90-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:17-69
+90-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:40:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:17-76
+92-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:27-73
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:17-78
+93-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:43:27-75
+94
+95                <data
+95-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:45:17-47:50
+96                    android:host="firebase.auth"
+96-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:46:21-56
+97                    android:path="/"
+98                    android:scheme="recaptcha" />
+98-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:47:21-47
+99            </intent-filter>
+100        </activity>
+101
+102        <service
+102-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
+103            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+103-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
+104            android:enabled="true"
+104-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
+106            <intent-filter>
+106-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
+107                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+107-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+107-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:17-76
+109-->[com.facebook.android:facebook-common:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/35ab0716f9cbbad78828e5ee23756370/facebook-common-8.2.0/AndroidManifest.xml:42:27-73
+110            </intent-filter>
+111        </service>
+112        <service
+112-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:74:9-80:19
+113            android:name="com.google.firebase.components.ComponentDiscoveryService"
+113-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:75:13-84
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:76:13-37
+116            <meta-data
+116-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+117-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth:20.0.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/48765790e009e9101cd0a044e13a25af/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
+119        </service>
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+123            android:authorities="com.schiesiapp.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+125            android:exported="false"
+125-->[com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+126            android:initOrder="100" />
+126-->[com.google.firebase:firebase-common:19.4.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/7b84e99219fdfaa62950ed1bcfa9f189/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+127        <!--
+128         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+129         with the application context. This config is merged in with the host app's manifest,
+130         but there can only be one provider with the same authority activated at any given
+131         point; so if the end user has two or more different apps that use Facebook SDK, only the
+132         first one will be able to use the provider. To work around this problem, we use the
+133         following placeholder in the authority to identify each host application as if it was
+134         a completely different provider.
+135        -->
+136        <provider
+136-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:39:9-42:40
+137            android:name="com.facebook.internal.FacebookInitProvider"
+137-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:40:13-70
+138            android:authorities="com.schiesiapp.FacebookInitProvider"
+138-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:41:13-72
+139            android:exported="false" />
+139-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:42:13-37
+140
+141        <receiver
+141-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:44:9-50:20
+142            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+142-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:45:13-86
+143            android:exported="false" >
+143-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:46:13-37
+144            <intent-filter>
+144-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:47:13-49:29
+145                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+145-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:17-95
+145-->[com.facebook.android:facebook-core:8.2.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/5c1486e45bdca6171d3d79d87eaf6eaf/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:25-92
+146            </intent-filter>
+147        </receiver>
+148
+149        <activity
+149-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+150            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+150-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+151            android:excludeFromRecents="true"
+151-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+152            android:exported="false"
+152-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+153-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+154        <!--
+155            Service handling Google Sign-In user revocation. For apps that do not integrate with
+156            Google Sign-In, this service will never be started.
+157        -->
+158        <service
+158-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+159            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+159-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+160            android:exported="true"
+160-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+161            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+161-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+162            android:visibleToInstantApps="true" />
+162-->[com.google.android.gms:play-services-auth:18.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/b2cd1089dda4532e893db50063c16630/play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+163
+164        <activity
+164-->[com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+165            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+165-->[com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-base:17.1.0] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/261bfd0ab29fc0741b7a3bf8e2010c88/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+168
+169        <meta-data
+169-->[com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+170            android:name="com.google.android.gms.version"
+170-->[com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+171            android:value="@integer/google_play_services_version" />
+171-->[com.google.android.gms:play-services-basement:17.1.1] /Users/arianemateus/.gradle/caches/transforms-2/files-2.1/e5707b9a1fee3d5c69c5438054c878cf/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+172    </application>
+173
+174</manifest>
