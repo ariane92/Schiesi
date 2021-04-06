@@ -4,8 +4,14 @@ import {NavigationContainer} from '@react-navigation/native'
 import { StatusBar, View } from 'react-native'
 import { AuthProvider } from './Providers/AuthProvider'
 import Routes from './routes/index'
+import '../ReactotronConfig'
+declare global {
+  interface Console {
+    tron: any
+  }
+}
 
-
+console.tron.log('App iniciado');
 
 const App: React.FC = () => {
 
