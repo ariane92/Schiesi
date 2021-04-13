@@ -8,7 +8,7 @@ import {scale, moderateScale} from 'react-native-size-matters'
 import {Container, Title, BoxButton, Content} from './styles'
 import Icon3 from 'react-native-vector-icons/Feather'
 import { useNavigation } from '@react-navigation/native';
-
+import colors from '../../styles/colors'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import {
   CodeField,
@@ -75,7 +75,7 @@ const RegisterPhone: React.FC = () => {
           <Container>
             <BoxButton>
               <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Icon3 name='chevron-left' size={42} color='#cecece'/>
+                    <Icon3 name='chevron-left' size={42} color={colors.grey} />
               </TouchableOpacity>
             </BoxButton>
 
@@ -120,7 +120,7 @@ const RegisterPhone: React.FC = () => {
       <Container>
         <BoxButton>
           <TouchableOpacity onPress={() => navigation.goBack()}>
-            <Icon3 name='chevron-left' size={42} color='#cecece'/>
+            <Icon3 name='chevron-left' size={42} color={colors.grey} />
           </TouchableOpacity>
         </BoxButton>
         <Title>Digite o código enviado.</Title>
@@ -169,6 +169,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   focusCell: {
-    borderColor: '#825BC9',
+    borderColor: colors.backgroundInit
   },
 });

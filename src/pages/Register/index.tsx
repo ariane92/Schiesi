@@ -11,7 +11,7 @@ import Icon2 from 'react-native-vector-icons/MaterialIcons'
 import {AuthContext} from '../../Providers/AuthProvider'
 import {useNavigation} from '@react-navigation/native';
 import Icon3 from 'react-native-vector-icons/Feather'
-
+import colors from '../../styles/colors'
 Icon.loadFont()
 Icon2.loadFont()
 Icon3.loadFont()
@@ -25,17 +25,13 @@ const Register: React.FC = () => {
 
   return (
     <>
-      <StatusBar backgroundColor='#825BC9' barStyle='light-content'  />
+      <StatusBar backgroundColor={colors.backgroundInit} barStyle='light-content'  />
       <Background>
         <Container>
-
             <TouchableOpacity onPress={() => navigation.goBack()}>
-                <Icon3 name='chevron-left' size={42} color='red'/>
+                <Icon3 name='chevron-left' size={42} color={colors.warning}/>
             </TouchableOpacity>
-
           <Title>Cadastro</Title>
-
-
           <SocialIcon
               title='Entrar com seu número de telefone cadastrado'
               button
@@ -52,7 +48,6 @@ const Register: React.FC = () => {
               style={{width: 350, height: 50}}
               onPress={() => navigation.navigate('RegisterEmail')}
             />
-
           <SocialIcon
               title='Entrar com Facebook'
               button
@@ -67,8 +62,6 @@ const Register: React.FC = () => {
               style={{width: 350, height: 50}}
               onPress={() => googleLogin()}
             />
-
-
         </Container>
         <ProblemsLogin>
             <TextProblemsLogin>Problemas para logar?</TextProblemsLogin>
