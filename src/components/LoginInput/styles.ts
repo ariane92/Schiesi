@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components/native'
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5'
 import { moderateScale } from 'react-native-size-matters'
 import { ContainerProps } from './index'
-
+import colors from '../../styles/colors'
 
 export const Container = styled.View<ContainerProps>`
   width: ${moderateScale(294)}px;
@@ -22,13 +22,13 @@ export const Container = styled.View<ContainerProps>`
   ${(props) =>
     props.isErrored &&
     css`
-      border-color: #c53030;
+      border-color: ${colors.error};
     `}
 
   ${(props) =>
     props.isFocused &&
     css`
-      border-color: red;
+      border-color: ${colors.error};
     `}
 `
 

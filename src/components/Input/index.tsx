@@ -10,7 +10,7 @@ import { TextInputProps } from 'react-native';
 import { useField } from '@unform/core';
 
 import { Container, TextInput } from './styles';
-
+import colors from '../../styles/colors'
 interface InputProps extends TextInputProps {
   name: string;
   icon?: string;
@@ -73,7 +73,7 @@ const Input: React.ForwardRefRenderFunction<InputRef, InputProps> = (
 
       <TextInput
         ref={inputElementRef}
-        placeholderTextColor="#cecece"
+        placeholderTextColor={colors.grey}
         defaultValue={defaultValue}
         onFocus={handleInputFocus}
         onBlur={handleInputBlur}

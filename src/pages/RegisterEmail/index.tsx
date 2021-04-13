@@ -8,7 +8,7 @@ import Input from '../../components/Input'
 import Icon from 'react-native-vector-icons/Feather'
 import { FormHandles } from '@unform/core';
 import {AuthContext} from '../../Providers/AuthProvider'
-
+import colors from '../../styles/colors'
 interface LoginFormData {
   user: string
   password: string
@@ -31,13 +31,13 @@ const RegisterEmail: React.FC = () => {
     {Platform.OS === 'ios' ?  <StatusBar  barStyle={"dark-content"}/>
         :  <StatusBar  barStyle={"light-content"}/>
     }
-  
-  
+
+
     <ScrollView  style={{flex: 1}}>
       <SafeAreaView>
         <BoxButton>
               <TouchableOpacity onPress={() => navigation.goBack()}>
-                <Icon name='chevron-left' size={42} color='#cecece'/>
+                <Icon name='chevron-left' size={42} color={colors.grey}/>
               </TouchableOpacity>
             </BoxButton>
           <Container>
@@ -68,7 +68,7 @@ const RegisterEmail: React.FC = () => {
                       }}
                     />
                     </Box>
-                    
+
             </Content>
           </Container>
           <Button style={{ marginTop: 32}} onPress={() => {formRef.current?.submitForm()}}>Entrar</Button>
