@@ -17,11 +17,9 @@ const App: React.FC = () => {
 
     return (
       <NavigationContainer>
-
         <View style={{flex: 1, backgroundColor: '#000'}}>
           <AuthProvider>
             <Routes />
-
           </AuthProvider>
         </View>
       </NavigationContainer>

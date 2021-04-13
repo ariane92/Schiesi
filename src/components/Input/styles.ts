@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components/native';
-
+import colors from '../../styles/colors'
 
 interface ContainerProps {
   isFocused: boolean;
@@ -13,13 +13,13 @@ export const Container = styled.View<ContainerProps>`
   margin-bottom: 8px;
   border-bottom-width: 2px;
 
-  border-color: #666360;
+  border-color: ${colors.borderGrey};
   flex-direction: row;
   align-items: center;
   ${props =>
     props.isErrored &&
     css`
-      border-color: #c53030;
+      border-color: ${colors.error};
     `}
   ${props =>
     props.isFocused &&
@@ -30,7 +30,7 @@ export const Container = styled.View<ContainerProps>`
 
 export const TextInput = styled.TextInput`
   flex: 1;
-  color: #666360;
+  color: ${colors.borderGrey};
   font-size: 18px;
   font-family: 'Roboto-Medium';
 `;

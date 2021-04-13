@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useField } from '@unform/core';
+import colors from '../../styles/colors'
 import RNCheckbox, {
   CheckBoxProps as RNCheckboxProps,
 } from '@react-native-community/checkbox';
@@ -78,9 +79,9 @@ const Checkbox: React.FC<CheckboxProps> = ({
         <View key={option.value} style={[styles.checkboxContainer]}>
           <RNCheckbox
             value={checkedValues.includes(option.value)}
-            tintColors={{true: '#825BC9'}}
-            onCheckColor='#825BC9'
-            onTintColor='#825BC9'
+            tintColors={{true: colors.backgroundInit}}
+            onCheckColor={colors.backgroundInit}
+            onTintColor={colors.backgroundInit}
             onValueChange={(isChecked: boolean) => {
               handleToggleOption(isChecked, option.value);
               onValueChange && onValueChange(isChecked);
@@ -90,7 +91,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
             }}
             {...rest}
           />
-          <Text style={{marginLeft: 12, fontFamily: 'Roboto-Medium', fontSize: 14, color: '#666360'}}>{option.label}</Text>
+          <Text style={{marginLeft: 12, fontFamily: 'Roboto-Medium', fontSize: 14, color: colors.borderGrey}}>{option.label}</Text>
         </View>
       ))}
     </>
